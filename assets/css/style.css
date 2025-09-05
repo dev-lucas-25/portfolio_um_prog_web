@@ -191,8 +191,14 @@ header{
 }
 
 .produtoCategoria{
+  padding: 5px 15px;
   font-size: 1em;
   border: solid var(--cor-fonte) 1px;
+}
+
+.produtoCategoria:hover{
+  color: var(--cor-fundo);
+  background: var(--cor-fonte);
 }
 
 .produtoDestaqueDivImg{
