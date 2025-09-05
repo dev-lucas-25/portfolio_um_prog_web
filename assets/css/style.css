@@ -4,6 +4,7 @@
   --cor-fonte: #12100B;
   --cor-botao: #877B66;
   --cor-fundo: #FFFFFF;
+  --cor-home: #262626;
   --fonte-princiapl: "Montserrat";
   --borda: #877b663c;
 }
@@ -29,6 +30,7 @@ header{
 }
 
 .logo{
+  width: fit-content;
   height: 100%;
 }
 
@@ -75,7 +77,32 @@ header{
   width: 100%;
 }
 
+.home{
+  margin-top: 10px;
+  background: var(--cor-home);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.slogan{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 20px;
+  font-family: var(--fonte-princiapl);
+  color: var(--cor-fundo);
+  text-transform: uppercase;
+  font-size: 2em;
+}
 
 
-
-
+.sloganImg{
+  width: fit-content;
+  height: 100%;
+}
+.sloganImg img{
+  max-height: 100%;
+  object-fit: cover;
+}
