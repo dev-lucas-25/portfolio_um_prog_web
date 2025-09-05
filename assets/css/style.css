@@ -6,6 +6,7 @@
   --cor-fundo: #FFFFFF;
   --cor-home: #262626;
   --cor-sobre: #f5efe7;
+  --cor-prodDest: #f7f7f9;
   --fonte-princiapl: "Montserrat";
   --borda: #877b663c;
 }
@@ -168,9 +169,12 @@ header{
   text-align: justify;
 }
 
-.produtoDestaque{
+.produtosDestaque{
   color: var(--cor-fonte);
+  background-color: var(--cor-prodDest);
   font-family: var(--fonte-princiapl);
+  width: 100%;
+  height: 50vh;
 }
 
 .produtoTitulo{
@@ -180,25 +184,39 @@ header{
   font-size: 1.4em;
 }
 
+.produtoDivCategoria{
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 0px 10px 60px;
+}
+
 .produtoCategoria{
-  display: flex;
-  justify-content: center;
+  font-size: 1em;
+  border: solid var(--cor-fonte) 1px;
 }
 
-.produtoCategoria>ul>li{
-  list-style: none;
-}
-
-.produtoDestaqueImg{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: fit-content;
+.produtoDestaqueDivImg{
   height: 100%;
+  display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
-.produtoDestaqueImgUm{
-  max-width: 100%;
+.produtoDestaqueImg{
+  margin: 0px 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.produtoDestaqueImgTexto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produtoDestaqueImg img{
+  max-height: 100%;
   object-fit: cover;
 }
