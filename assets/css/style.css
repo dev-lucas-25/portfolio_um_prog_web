@@ -110,6 +110,7 @@ header{
   color: var(--cor-fundo);
   border: solid var(--cor-botao);
   border-radius: 30px;
+  transition: 1s;
   padding: 15px;
 }
 
