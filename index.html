@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEU PROJETO</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="shortcut icon" href="assets/imgs/logo/logo_sem_fundo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/imgs/logo/logo.jpg" type="image/x-icon">
 </head>
 <body>
 
@@ -22,63 +22,60 @@
   </header>
 
   <section class="home">
-    <div class="slogan">
-      <h1>Mais do que tênis, uma experiência.</h1>
-      <a href="">Saiba mais!</a>
+    <div class="container">
+      <div class="slogan">
+        <h1>Mais do que tênis, uma experiência.</h1>
+        <a href="">Saiba mais!</a>
+      </div>
+        <img src="assets/imgs/imagens-banner/tenis_espotivo_adidas.webp" alt="Imagem de Tenis para venda" id="tenis-baner">
+    </section>
     </div>
-    <div class= "sloganImg">
-      <img src="assets/imgs/imagens-banner/tenis_espotivo_adidas.webp" alt="Imagem de Tenis para venda">
-    </div>
-  </section>
 
   <section class="sobre" id="sobre">
     <h3 id="titulo-sobre">Sobre Nós</h3>
-      <div class="sobreDiv">
-        <img src="assets/imgs/logo/favicon.png" alt="">
-        <div class="sobreTexto">
-          <h3>New Sneakers</h3>
-          <p>A New Sneakers nasceu em 2025, em Rio Claro, como uma revendedora não oficial das marcas Adidas e Fila. 
-            Nosso compromisso é oferecer tênis de qualidade, unindo conforto, 
-            estilo e as últimas tendências para atender nossos clientes da melhor forma.</p>
+    <div class="container">
+      <img src="assets/imgs/imagens-banner/rio_claro_sp.png" id="foto-cidade">
+        <div class="sobreDiv">
+          <img src="assets/imgs/logo/favicon.png" alt="">
+          <div class="sobreTexto">
+            <h3>New Sneakers</h3>
+            <p>A New Sneakers nasceu em 2025, em Rio Claro, como uma revendedora não oficial das marcas Adidas e Fila. 
+              Nosso compromisso é oferecer tênis de qualidade, unindo conforto, 
+              estilo e as últimas tendências para atender nossos clientes da melhor forma.</p>
+          </div>
         </div>
-      </div>
+    </div>
   </section>
 
   <section class="produtosDestaque">
-
-    <div class="produtoTitulo">
-      <h3>Produto Destaque</h3>
-      <hr>
-    </div>
-
-    <div class="produtoDivCategoria">
-      <a class="produtoCategoriaBtn">
-        Tênis
-      </a>
-    </div>
-    <div class="grid">
-      <div class="produtoDestaqueDivImg">
-        <div class="produtoDestaqueImg">
-          <img src="assets/catalogo_produtos/img/tenis_esportivos/adidas/tenis00.1.webp" alt="">
-          <div class="produtoDestaqueImgTexto">
-            <span>Tênis Adidas</span>
-            <span>R$399,90</span>
-          </div>
+     <h3 id="titulo-prod-destaque">Produtos em Destaque</h3>
+     <div class="grid">
+      <div class="produtos-card">
+        <img src="assets/catalogo_produtos/img/tenis_esportivos/adidas/tenis_esportivo1.webp" alt="tenis casual adidas">
+        <div class="descricao">
+          <h3>Tênis Esportivo Adidas</h3>
+          <span class="preco-antigo">R$600,00</span><br>
+          <span> R$499,99</span>
         </div>
-        <div class="produtoDestaqueImg">
-          <img src="assets/catalogo_produtos/img/tenis_casual/adidas/casual_tenis2.webp" alt="">
-          <div class="produtoDestaqueImgTexto">
-            <span>Tênis Adidas</span>
-            <span>R$269,90</span>
-          </div>
+       <button class="compra">Comprar</button>
+      </div>
+      <div class="produtos-card">
+        <img src="assets/catalogo_produtos/img/tenis_casual/adidas/casual_tenis2.webp">
+        <div class="descricao">
+          <h3>Tênis Casual Adidas</h3>
+          <span class="preco-antigo">R$350,00</span><br>
+          <span>R$300,00</span>
         </div>
-        <div class="produtoDestaqueImg">
-          <img src="assets/catalogo_produtos/img/tenis_casual/fila/casual_tenis1.png" alt="">
-          <div class="produtoDestaqueImgTexto">
-            <span>Tênis Fila</span>
-            <span>R$280,90</span>
-          </div>
+        <button class="compra">Comprar</button>
+      </div>
+      <div class="produtos-card">
+        <img src="assets/catalogo_produtos/img/tenis_casual/fila/casual_tenis3.png">
+        <div class="descricao">
+          <h3>Tênis Casual Fila</h3>
+          <span class="preco-antigo">R$700,00</span><br>
+          <span>R$499,00</span>
         </div>
+        <button class="compra">Comprar</button>
       </div>
     </div>
   </section>

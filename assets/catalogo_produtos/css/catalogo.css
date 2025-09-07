@@ -119,9 +119,11 @@ header{
   color: var(--cor-fundo);
   border: none;
   border-radius: 5px;
+  font-weight: 700;
 }
 .compra:hover{
 background: var(--cor-fonte);
+cursor: pointer;
 }
 #titulo-secao{
   width: 90vw;
