@@ -1,6 +1,6 @@
 # Atividade Prática – Parte 1
 
-## Objetivo: Criar um site simples para uma loja fictícia de produtos de cuidados pessoais, apresentando informações básicas sobre a empresa, seus produtos e formas de contato.
+## Objetivo: Criar um site simples para uma loja fictícia, apresentando informações básicas sobre a empresa, seus produtos e formas de contato.
 
 ### Páginas:
 
