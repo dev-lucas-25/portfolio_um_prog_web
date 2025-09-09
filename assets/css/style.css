@@ -6,7 +6,8 @@
   --cor-fundo: #ffffff;
   --cor-home: #262626;
   --cor-sobre: #f5efe7;
-  --cor-prodDest: #f7f7f9;
+  --cor-prodDest: #040406;
+  --COR-CARD:#EAEAEA;
   --fonte-princiapl: "Montserrat";
   --borda: #877b663c;
 }
@@ -251,6 +252,7 @@ header {
 .produtosDestaque {
   display: flex;
   flex-direction: column;
+  background-color: #efefef;
   align-items: center;
   margin-bottom: 50px;
 }
@@ -266,7 +268,10 @@ header {
   padding: 25px;
   flex-direction: column;
   height: 100%;
-  border: solid var(--borda) 2px;
+  
+}
+.produtos-card:hover {
+border: solid var(--cor-botao) 2px;
 }
 .produtos-card img {
   max-width: 100%;
